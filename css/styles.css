@@ -691,19 +691,21 @@ background-color: #31d0aa;
                 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 }
 
-                .field-name:focus{
-                border-color: #4D5AE5;
-                }
-
                 .icon-person {
                 position: absolute;
                 left: 16px;
                 top: 50%;
                 transform: translateY(-50%);
+                fill: #2E2F42;
                 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
                 }
+
+                
+                .field-name:focus .icon-person{
+                border-color: #4D5AE5;
+                }
+
+                
 
                 .icon-person:focus {
                     fill: #4D5AE5;
