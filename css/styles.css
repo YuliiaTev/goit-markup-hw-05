@@ -641,16 +641,17 @@ background-color: #31d0aa;
 
         .overlay-icon-close {
             transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            fill: #2E2F42;
             
         }
 
-        .overlay-icon-close:hover,
-        .overlay-icon-close:focus {
+        .overlay-btn:hover .overlay-icon-close,
+        .overlay-btn:focus .overlay-icon-close{
         fill: #FFF;
         }
 
 
-        .overlay-title {
+            .overlay-title {
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
