@@ -704,7 +704,7 @@ background-color: #31d0aa;
 
                 }
 
-                .field-name .icon-person:focus {
+                .icon-person:focus {
                     fill: #4D5AE5;
                 }
 
@@ -738,4 +738,54 @@ background-color: #31d0aa;
                 .overlay-checkbox{
                     margin-bottom: 24px;
                 }
+
+                .overlay-accept{
+                    font-size: 12px;
+                    line-height: 1.17;
+                    letter-spacing: 0.04em;
+
+                }
+
+                .span-accept{
+                    width: 16px;
+                    height: 16px;
+                    border: 1px solid rgba(46, 47, 66, 0.4);
+                    border-radius: 2px;
+                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    fill: transparent;
+                    }
+
+                    .span-accept:checked {
+                        background-color: #404BBF;
+                        border: none;
+                        fill: #f4f4fd;
+                    }
+
+                    .accept-link{
+                        color: #4d5ae5;;
+
+                    }
+
+                    .bnt-send {
+                        display: block;
+                        min-width: 169px;
+                        height: 56px;
+                        font-family: "Roboto", sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 1.5;
+                        letter-spacing: 0.04em;
+                        color: #ffffff;
+                        cursor: pointer;
+                        background-color: #4D5AE5;
+                        border: none;
+                        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+
+                    }
 
